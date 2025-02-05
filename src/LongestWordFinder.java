@@ -21,7 +21,7 @@ public class LongestWordFinder {
     }
 
     public static void main(String[] args) {
-        String text = "Написать метод для поиска самого длинного слова в тексте на Java.";
+        String text = "Метод для поиска самого длинного слова в тексте на Java.";
         String longestWord = findLongestWord(text);
         System.out.println("Самое длинное слово: " + longestWord);
     }
